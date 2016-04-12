@@ -8,11 +8,12 @@ if (Meteor.isClient) {
     });
 
   Template.body.helpers({ //Define joueurs collection and load joueursCol from it
-    joueurs: function(){
+    joueur: function(){
       return Joueurs.find({}, {sort: {createdAt: -1}}); //sort: -1 => ordre inverse
     }
   });
 
+// EVENTS
   Template.body.events({
     "submit.joueur": function (event) {
       event.preventDefault(); // Prevent default browser form submit
