@@ -1,0 +1,94 @@
+<template name="commun">
+  <head>
+    <title>crazyballs</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" media="screen" type="text/css" title="Crazy Balls" href="crazyballs.css" >
+    <link href='https://fonts.googleapis.com/css?family=Cherry+Swash:400,700' rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="crazyballs.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <div id="titreJeu">
+      <h1>Crazy Balls</h1>
+      <p>Ce jeu a été réalisé avec Meteor JS. <br />J'aurai préféré utiliser une autre méthode, mais cela m'a permis de m'entraîner sur MeteorJS que j'utilise durant mon stage.</p>
+      <p>Vous pouvez jouer jusqu'à 2 joueurs l'un contre l'autre en temps réel (si je réussis à aller jusque-là !).</p>
+      <form class="joueur">
+        <h2>Joueur</h2>
+          <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pseudo : </label><input type="text" name="pseudo" placeholder="Votre pseudo" required/><br/>
+          <label>Mot de passe : </label><input type="password" name="password" placeholder="Votre mot de passe" required/><br/><br/>
+          <!-- <p>Choisissez votre avatar : </p>
+          <img class="avatar" src="/avatar/m-2.gif" alt="m-2" height="50" width="50" />
+          <img class="avatar" src="/avatar/Riberts.gif" alt="Riberts" height="50" width="50" />
+          <img class="avatar" src="/avatar/RootmarsSprite.gif" alt="RootmarsSprite" height="50" width="50" />
+          <img class="avatar" src="/avatar/Wild_goose_LFDL.png" alt="Wild goose" height="50" width="50" />
+          <img class="avatar" src="/avatar/Golden-fox_LFDL.png" alt="Golden fox" height="50" width="50" />
+          <img class="avatar" src="/avatar/navette.png" alt="Navette" height="50" width="50" /><br/> -->
+            <!-- {{>avatar}}<br/> -->
+          {{>submit}}
+      </form>
+
+      {{>nbJoueurs}}
+      <p>
+        {{#each joueurs}}
+          {{> nomsJoueurs}}
+        {{/each}}
+      </p>
+
+      {{>button}}
+    </div>
+
+    {{gaucheHaut}}
+    {{gaucheBas}}
+    {{droiteHaut}}
+    {{droiteBas}}
+    {{terrainDeJeu}}
+  </body>
+</template>
+
+<!-- <template name="avatar">
+  <p>{{avatar}}</p>
+</template> -->
+<template name="submit">
+  <input class="submit" type="submit" value="S'enregistrer" />
+</template>
+
+<template name="nbJoueurs">
+  <p>Vous êtes {{nombreJoueurs}} joueurs connectés :</p>
+</template>
+
+<template name="nomsJoueurs">
+  <li>{{pseudo}}</li>
+</template>
+
+<template name="button">
+  <button>Commencer à jouer</button>
+</template>
+
+<!-- <template name="gaucheHaut">
+  <div id="gaucheHaut">
+  </div>
+</template>
+
+<template name="gaucheBas">
+  <div id="gaucheBas">
+  </div>
+</template>
+
+<template name="droiteHaut">
+  <div id="droiteHaut">
+  </div>
+</template>
+
+<template name="droiteBas">
+  <div id="droiteBas">
+  </div>
+</template>
+
+<template name="terrainDeJeu">
+  <div id="terrainDeJeu">
+    <div id="bumper">
+    </div>
+  </div>
+</template> -->
