@@ -1,11 +1,16 @@
 if (Meteor.isClient) {
 
+<<<<<<< HEAD
   HELPERS
+=======
+  // HELPERS
+>>>>>>> 8227a9a5f78d00dc5decd6c7b0edfeedcf959378
     Template.nbJoueurs.helpers({ // affiche le nombre de joueurs
       nombreJoueurs: function () {
         return Session.get('nombreJoueurs');
       }
     });
+<<<<<<< HEAD
   //
   // Template.body.helpers({ //Define joueurs collection and load joueursCol from it
   //   user: function(){
@@ -16,6 +21,17 @@ if (Meteor.isClient) {
 // EVENTS
   Template.body.events({
     "submit.user": function (event) {
+=======
+
+  Template.body.helpers({ //Define joueurs collection and load joueursCol from it
+    joueurs: function(){
+      return Joueurs.find({}, {sort: {createdAt: -1}}); //sort: -1 => ordre inverse
+    }
+  });
+
+  Template.body.events({
+    "submit.joueur": function (event) {
+>>>>>>> 8227a9a5f78d00dc5decd6c7b0edfeedcf959378
       event.preventDefault(); // Prevent default browser form submit
 
       var pseudoJoueur = event.target.pseudo.value; // Get value from form element

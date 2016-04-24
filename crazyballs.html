@@ -11,6 +11,7 @@
   <body>
 
     <div id="titreJeu">
+<<<<<<< HEAD
       <h1>Space Balls</h1>
       <p>Ce jeu a été réalisé avec Meteor JS. <br />Débutante en Javascript, ce n'est pas ma méthode préférée, même si j'en vois les avantages.</p>
       <p>Vous devriez pouvoir jouer jusqu'à 2 joueurs l'un contre l'autre.</p><br />
@@ -23,21 +24,74 @@
       <p>
         {{#each user}}
           {{> nomJoueur}}
+=======
+      <h1>Crazy Balls</h1>
+      <p>Ce jeu a été réalisé avec Meteor JS. <br />Ce n'est peut-être pas la techno la plus légère pour ce jeu, mais je l'ai choisie spécifiquement pour me permettre de m'entraîner sur MeteorJS que j'utiliserai pendant mon stage.</p>
+      <p>Vous pouvez jouer jusqu'à 4 joueurs en même temps (si je réussis à aller jusque-là !).</p>
+      <form class="joueur">
+        <h2>Joueur</h2>
+          <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pseudo : </label><input type="text" name="pseudo" placeholder="Votre pseudo" required/><br/>
+          <label>Mot de passe : </label><input type="password" name="password" placeholder="Votre mot de passe" required/><br/><br/>
+          <!-- <p>Choisissez votre avatar : </p>
+          <img class="avatar" src="/avatar/m-2.gif" alt="m-2" height="50" width="50" />
+          <img class="avatar" src="/avatar/Riberts.gif" alt="Riberts" height="50" width="50" />
+          <img class="avatar" src="/avatar/RootmarsSprite.gif" alt="RootmarsSprite" height="50" width="50" />
+          <img class="avatar" src="/avatar/Wild_goose_LFDL.png" alt="Wild goose" height="50" width="50" />
+          <img class="avatar" src="/avatar/Golden-fox_LFDL.png" alt="Golden fox" height="50" width="50" />
+          <img class="avatar" src="/avatar/navette.png" alt="Navette" height="50" width="50" /><br/> -->
+            <!-- {{>avatar}}<br/> -->
+          {{>submit}}
+      </form>
+
+      {{>nbJoueurs}}
+      <p>
+        {{#each joueurs}}
+          {{> nomsJoueurs}}
+>>>>>>> 8227a9a5f78d00dc5decd6c7b0edfeedcf959378
         {{/each}}
       </p>
 
       {{>button}}
     </div>
 
+<<<<<<< HEAD
   </body>
 
+=======
+    {{gaucheHaut}}
+    {{gaucheBas}}
+    {{droiteHaut}}
+    {{droiteBas}}
+    {{terrainDeJeu}}
+  </body>
+>>>>>>> 8227a9a5f78d00dc5decd6c7b0edfeedcf959378
 </template>
 
 <!-- <template name="avatar">
   <p>{{avatar}}</p>
 </template> -->
+<<<<<<< HEAD
 
 <!-- <template name="gaucheHaut">
+=======
+<template name="submit">
+  <input class="submit" type="submit" value="S'enregistrer" />
+</template>
+
+<template name="nbJoueurs">
+  <p>Vous êtes {{nombreJoueurs}} joueurs connectés :</p>
+</template>
+
+<template name="nomsJoueurs">
+  <li>{{pseudo}}</li>
+</template>
+
+<template name="button">
+  <button>Commencer à jouer</button>
+</template>
+
+<template name="gaucheHaut">
+>>>>>>> 8227a9a5f78d00dc5decd6c7b0edfeedcf959378
   <div id="gaucheHaut">
   </div>
 </template>
@@ -62,4 +116,8 @@
     <div id="bumper">
     </div>
   </div>
+<<<<<<< HEAD
 </template> -->
+=======
+</template>
+>>>>>>> 8227a9a5f78d00dc5decd6c7b0edfeedcf959378
