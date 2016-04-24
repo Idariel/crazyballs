@@ -1,11 +1,11 @@
 if (Meteor.isClient) {
 
-  // HELPERS
-  //   Template.nbJoueurs.helpers({ // affiche le nombre de joueurs
-  //     nombreJoueurs: function () {
-  //       return Session.get('nombreJoueurs');
-  //     }
-  //   });
+  HELPERS
+    Template.nbJoueurs.helpers({ // affiche le nombre de joueurs
+      nombreJoueurs: function () {
+        return Session.get('nombreJoueurs');
+      }
+    });
   //
   // Template.body.helpers({ //Define joueurs collection and load joueursCol from it
   //   user: function(){
