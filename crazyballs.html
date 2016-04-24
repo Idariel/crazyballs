@@ -12,18 +12,16 @@
 
     <div id="titreJeu">
       <h1>Space Balls</h1>
-      <p>Ce jeu a été réalisé avec Meteor JS. <br />J'aurai préféré utiliser une autre méthode, mais cela m'a permis de m'entraîner sur MeteorJS que j'utilise durant mon stage.</p>
-      <p>Vous pouvez jouer jusqu'à 2 joueurs l'un contre l'autre en temps réel (si je réussis à aller jusque-là !).</p>
-      <form class="joueur">
-        <h2>Joueur</h2>
-          <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pseudo : </label><input type="text" name="pseudo" placeholder="Votre pseudo" required/><br/>
-          <label>Mot de passe : </label><input type="password" name="password" placeholder="Votre mot de passe" required/><br/><br/>
-          {{>submit}}
-      </form>
+      <p>Ce jeu a été réalisé avec Meteor JS. <br />Débutante en Javascript, ce n'est pas ma méthode préférée, même si j'en vois les avantages.</p>
+      <p>Vous devriez pouvoir jouer jusqu'à 2 joueurs l'un contre l'autre.</p><br />
+      <p class="footnote">Code sur gitHub :
+      https://github.com/Idariel/crazyballs.</p>
 
-      {{>nbJoueurs}}
+      {{> userForm}}
+
+      {{> nbJoueurs}}
       <p>
-        {{#each joueur}}
+        {{#each user}}
           {{> nomJoueur}}
         {{/each}}
       </p>
@@ -38,21 +36,6 @@
 <!-- <template name="avatar">
   <p>{{avatar}}</p>
 </template> -->
-<template name="submit">
-  <input class="submit" type="submit" value="S'enregistrer" />
-</template>
-
-<template name="nbJoueurs">
-  <p>Vous êtes {{nombreJoueurs}} joueurs connectés :</p>
-</template>
-
-<template name="nomsJoueurs">
-  <li>{{pseudo}}</li>
-</template>
-
-<template name="button">
-  <button>Commencer à jouer</button>
-</template>
 
 <!-- <template name="gaucheHaut">
   <div id="gaucheHaut">

@@ -1,21 +1,21 @@
 if (Meteor.isClient) {
 
   // HELPERS
-    Template.nbJoueurs.helpers({ // affiche le nombre de joueurs
-      nombreJoueurs: function () {
-        return Session.get('nombreJoueurs');
-      }
-    });
-
-  Template.body.helpers({ //Define joueurs collection and load joueursCol from it
-    joueur: function(){
-      return Joueurs.find({}, {sort: {createdAt: -1}}); //sort: -1 => ordre inverse
-    }
-  });
+  //   Template.nbJoueurs.helpers({ // affiche le nombre de joueurs
+  //     nombreJoueurs: function () {
+  //       return Session.get('nombreJoueurs');
+  //     }
+  //   });
+  //
+  // Template.body.helpers({ //Define joueurs collection and load joueursCol from it
+  //   user: function(){
+  //     return Joueurs.find({}, {sort: {createdAt: -1}}); //sort: -1 => ordre inverse
+  //   }
+  // });
 
 // EVENTS
   Template.body.events({
-    "submit.joueur": function (event) {
+    "submit.user": function (event) {
       event.preventDefault(); // Prevent default browser form submit
 
       var pseudoJoueur = event.target.pseudo.value; // Get value from form element

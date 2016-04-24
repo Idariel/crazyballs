@@ -1,5 +1,5 @@
-Joueurs = new Mongo.Collection("joueur");
+Joueurs = new Mongo.Collection("user");
 
 // template.submit.events ({
-//   db.Joueurs.insert()
+  // db.Joueurs.insert()
 // })

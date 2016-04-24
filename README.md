@@ -6,3 +6,5 @@ README Crazy Balls (qui devrait s'appeler SpaceBalls)
 4 - Pusher sur le master gitLab
 5 - Faire évoluer l'appli
 6 - Voir s'il est possible de pusher sur gitHubs
+
+Pb 1 - J'ai essayé de rajouter un package et depuis j'ai tout impossible de lancer l'appli et impossible de lancer meteor mongo. Si je me souviens bien le package était account-password (npm-debug log). Argghhh ! Je crois que c'est un package NPM, qui ne devrait donc pas fonctionner avec ma version de Meteor. QUESTION : si j'upgrade Meteor à 1.3+ sur Crazyballs, est-ce que NemoJus fonctionnera toujours avec Meteor 1.2.1 ?
