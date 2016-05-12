@@ -1,0 +1,24 @@
+<template name="userForm">
+  <form class="user">
+    <h2>Joueur</h2>
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pseudo : </label><input type="text" name="pseudo" placeholder="Votre pseudo" required/><br/>
+      <label>Mot de passe : </label><input type="password" name="password" placeholder="Votre mot de passe" required/><br/><br/>
+      {{>submit}}
+  </form>
+</template>
+
+<template name="submit">
+  <input class="submit" type="submit" value="S'enregistrer" />
+</template>
+
+<template name="nbJoueurs">
+  <p>Vous êtes {{nombreJoueurs}} joueurs connectés :</p>
+</template>
+
+<template name="nomsJoueurs">
+  <li>{{pseudo}}</li>
+</template>
+
+<template name="button">
+  <button>Commencer à jouer</button>
+</template>

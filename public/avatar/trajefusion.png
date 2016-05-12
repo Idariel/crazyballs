@@ -404,6 +404,7 @@ if (typeof(GlamCreateSlot) === 'function' && typeof(GlamGetAds) === 'function') 
                     Pb.Data.add('pg',{"name":"detailpage","bl":true});
             </script>
             
+<<<<<<< HEAD
 <div id="" class="pageFeature feature alert fade shrink linen">
         <a class="close"  data-dismiss="alert" href="#"><i class='icon-remove'></i></a>
         <div class="featureBody">
@@ -415,11 +416,28 @@ if (typeof(GlamCreateSlot) === 'function' && typeof(GlamGetAds) === 'function') 
     <div class="featureFooter">
             </div>
 </div>
+=======
+<div id="" class="pageFeature feature alert fade shrink linen">
+        <a class="close"  data-dismiss="alert" href="#"><i class='icon-remove'></i></a>
+        <div class="featureBody">
+        <div class="feature">
+                        <div class="featureContent">
+                            </div>
+        </div>
+    </div>
+    <div class="featureFooter">
+            </div>
+</div>
+>>>>>>> bbadb96b279af0e60bd591deb1dd6b24e9326fe2
 
         <div class="contentWrapper" id="main">
             <div class="content">
 
+<<<<<<< HEAD
                 <div class="detailWrapper" id="detailalbum" data-pbdkey="shared.media" data-pbdoffset="">
+=======
+                <div class="detailWrapper" id="detailalbum" data-pbdkey="shared.media" data-pbdoffset="">
+>>>>>>> bbadb96b279af0e60bd591deb1dd6b24e9326fe2
     <script type="text/javascript">
 Pb.Data.Shared.put(Pb.Data.Shared.MEDIA, {"pictureId":"73691979","statsCounterTypes":"2","statsCounterTotals":"348","name":"trajefusion.png","title":"","contentModStatus":"queued","description":"","subdomain":"i271","directory":"albums\/jj123","location":"","public":false,"fileTypeId":"1","checksum":"aefc98c1d59ec43042535f0f1951d1c9abdfef76","modificationDate":1281544718,"creationDate":1281544718,"userId":61936212,"username":"aldorock","offset":null,"silo":35,"path":"\/albums\/jj123\/aldorock\/trajefusion.png","albumPath":"\/albums\/jj123\/aldorock","albumUrl":"http:\/\/s271.photobucket.com\/user\/aldorock\/library\/","storyUrl":"http:\/\/s271.photobucket.com\/user\/aldorock\/story","mediaType":"image","fullsizeUrl":"http:\/\/i271.photobucket.com\/albums\/jj123\/aldorock\/trajefusion.png","thumbUrl":"http:\/\/rs271.pbsrc.com\/albums\/jj123\/aldorock\/trajefusion.png~c100","mobileFullsizeUrl":"http:\/\/rs271.pbsrc.com\/albums\/jj123\/aldorock\/trajefusion.png?w=480&h=480&fit=clip","linkUrl":"http:\/\/s271.photobucket.com\/user\/aldorock\/media\/trajefusion.png.html","isPersisted":true,"ownername":"aldorock","ext":"png","mediaId":"73691979","likeCount":0,"commentCount":0,"viewCount":"348","pbdkey":"shared.media","context":"album","id":0,"ownerprofilelink":"\/user\/aldorock\/profile","rsWidth":"","rsHeight":"","placeHold":false,"placeHolderId":"placeHolder_0","titleOrFilename":"trajefusion","linkcodes":{"email":"http:\/\/s271.photobucket.com\/user\/aldorock\/media\/trajefusion.png.html","direct":"http:\/\/i271.photobucket.com\/albums\/jj123\/aldorock\/trajefusion.png","html":"&lt;a href=&quot;http:\/\/s271.photobucket.com\/user\/aldorock\/media\/trajefusion.png.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http:\/\/i271.photobucket.com\/albums\/jj123\/aldorock\/trajefusion.png&quot; border=&quot;0&quot; alt=&quot; photo trajefusion.png&quot;\/&gt;&lt;\/a&gt;","img":"[URL=http:\/\/s271.photobucket.com\/user\/aldorock\/media\/trajefusion.png.html][IMG]http:\/\/i271.photobucket.com\/albums\/jj123\/aldorock\/trajefusion.png[\/IMG][\/URL]"},"altText":" photo trajefusion.png","isLiked":false,"isFollowing":false,"likebutton":[{"likeableUrl":{},"context":"detail","loginRedirect":"<a class=\"likelogin\">Login<\/a> to like this!"}],"originalUrl":"http:\/\/i271.photobucket.com\/albums\/jj123\/aldorock\/trajefusion.png~original","secureOriginal":"https:\/\/oi271.photobucket.com\/albums\/jj123\/aldorock\/trajefusion.png~original","secureThumbUrl":"https:\/\/rs271.pbsrc.com\/albums\/jj123\/aldorock\/trajefusion.png~c100","secureFullsize":"https:\/\/oi271.photobucket.com\/albums\/jj123\/aldorock\/trajefusion.png","hashtagMedia":false,"showPreview":false,"hashtagMetadata":[],"sizeClass":"dynamicThumbnail","userCanFlag":true,"io":false,"cd":true,"cp":true,"downloadUrl":"http:\/\/i271.photobucket.com\/download-albums\/jj123\/aldorock\/trajefusion.png~original","bl":true});
 
@@ -812,8 +830,13 @@ $(document).on('Detail::first_batch_received', function(e){
                 <h2><span>SHARE THIS PHOTO</span> <i class="icon-question-sign icon-large" id="linksHelp" data-original-title="Links allow you to easily share your photos & videos anywhere on the web. Simply click a link to copy, and paste to an email, blog, website, forum and more! Hint: Use the HTML code to embed photos on websites like Blogger, eBay and Craigslist. Use the IMG code for bulletin boards and forums."></i></h2>
         
         <div class="contentText">
+<<<<<<< HEAD
         <div class="clearR"></div>      
     <div id="shareWarning"></div>    <div class="link-container ">
+=======
+        <div class="clearR"></div>      
+    <div id="shareWarning"></div>    <div class="link-container ">
+>>>>>>> bbadb96b279af0e60bd591deb1dd6b24e9326fe2
         <div id="linksModule_zeroclipboard_0" class="zeroclipboard" data-appboy="web_media_share"  data-mixpanel="image" data-tracking="detail_email_and_im_linkcode_click">
     <div id="linksModule_copycode_0" class="copycode control-group" data-clipboard-text="http://s271.photobucket.com/user/aldorock/media/trajefusion.png.html" data-clipboard-target="linksModule_ccinput_0">
         <label class="link">Email & IM</label>        <input id="linksModule_ccinput_0" class="linkcopy" readonly="readonly" type="text" value="http://s271.photobucket.com/user/aldorock/media/trajefusion.png.html" />
@@ -834,6 +857,7 @@ $(document).on('Detail::first_batch_received', function(e){
         <label class="link">IMG</label>        <input id="linksModule_ccinput_3" class="linkcopy" readonly="readonly" type="text" value="[URL=http://s271.photobucket.com/user/aldorock/media/trajefusion.png.html][IMG]http://i271.photobucket.com/albums/jj123/aldorock/trajefusion.png[/IMG][/URL]" />
         <div class="clearB"></div>
     </div>
+<<<<<<< HEAD
 </div>
     </div>
      
@@ -847,6 +871,21 @@ Pb.InitEventQueue.addToDomReady(function() {
             copyCodeController.createZeroClipboard('#linksModule_ccinput_3', false);
     });
 </script>
+=======
+</div>
+    </div>
+     
+
+<script type="text/javascript">
+Pb.InitEventQueue.addToDomReady(function() {
+    var copyCodeController = Pb.Component.Common.CopyCode.CopyCode;
+            copyCodeController.createZeroClipboard('#linksModule_ccinput_0', false);
+            copyCodeController.createZeroClipboard('#linksModule_ccinput_1', false);
+            copyCodeController.createZeroClipboard('#linksModule_ccinput_2', false);
+            copyCodeController.createZeroClipboard('#linksModule_ccinput_3', false);
+    });
+</script>
+>>>>>>> bbadb96b279af0e60bd591deb1dd6b24e9326fe2
         </div>
 
             </div>
@@ -899,12 +938,21 @@ Pb.InitEventQueue.addToDomReady(function() {
                 <h2>OPTIONS</h2>
         
         <div class="contentText">
+<<<<<<< HEAD
         <div id="detailOptions" class="detailOptions"></div>
 <script type="text/javascript">
     Pb.InitEventQueue.addToDomReady(function() {
         new Pb.Component.Detail.Options({"iconLink":[{"url":"javascript:void(0);","label":"Print canvas decor","identifier":"printdecor","classString":"iconLink","onClick":"Pb.Component.Tracking.Mixpanel.trackPrintPromoClick({promo: 'canvas prints link', component: 'media detail'});Pb.Track.trf('print_decor_option_click'); document.location.href='https:\/\/secure.photobucket.com\/print\/homedecor\/canvasprints?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Print canvas decor' ","iconClass":"icon-order-prints","jsAttributes":{"checkperms":true,"identifier":"printdecor"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Copy","identifier":"copy","classString":"iconLink","onClick":"Pb.Track.trf('copy_detailpage_option_click');","extraAttributes":" title='Copy' data-copymovemode='copy' ","iconClass":"icon-copy","jsAttributes":{"checkperms":true,"identifier":"copy"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Order prints","identifier":"prints","classString":"iconLink","onClick":"Pb.Component.Tracking.Mixpanel.trackPrintPromoClick({promo: 'prints link', component: 'media detail'});Pb.Track.trf('print_detailpage_option_click'); document.location.href='https:\/\/secure.photobucket.com\/print\/prints\/prints?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Print photo' ","iconClass":"icon-shopping-cart","jsAttributes":{"checkperms":true,"identifier":"prints"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Download","identifier":"download","classString":"iconLink","onClick":"Pb.Track.trf('download_detailpage_option_click');","extraAttributes":" title='Download' ","iconClass":"icon-download-alt","jsAttributes":{"checkperms":true,"identifier":"download"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Create metal prints","identifier":"metalprints","classString":"iconLink","onClick":"Pb.Component.Tracking.Mixpanel.trackPrintPromoClick({promo: 'metal prints link', component: 'media detail'});Pb.Track.trf('metalprints_detailpage_option_click'); document.location.href='https:\/\/secure.photobucket.com\/print\/homedecor\/metalprints?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Create metal prints' ","iconClass":"icon-gift","jsAttributes":{"checkperms":true,"identifier":"metalprints"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Report this photo","identifier":"flag","classString":"iconLink showReportModal","onClick":"Pb.Track.trf('flag_detailpage_option_click');","extraAttributes":" title='Flag' ","iconClass":"icon-flag","jsAttributes":{"checkperms":true,"identifier":"flag"},"tooltip":false,"displayIconAfterLabel":false}],"eventRegister":[{"eventSelector":"a#prints","eventType":"click","event":"Options::prints"},{"eventSelector":"a#printoption","eventType":"click","event":"Options::printoption"},{"eventSelector":"a#edit2","eventType":"click","event":"Options::edit2"},{"eventSelector":"a#download","eventType":"click","event":"Options::download"},{"eventSelector":"a#downloadoption","eventType":"click","event":"Options::downloadoption"},{"eventSelector":"a#viewalbum","eventType":"click","event":"Options::viewalbum"},{"eventSelector":"a#move","eventType":"click","event":"Options::move"},{"eventSelector":"a#rotateleft","eventType":"click","event":"Options::rotateleft"},{"eventSelector":"a#rotateright","eventType":"click","event":"Options::rotateright"},{"eventSelector":"a#effects","eventType":"click","event":"Options::effects"},{"eventSelector":"a#delete","eventType":"click","event":"Options::delete"},{"eventSelector":"a#copy","eventType":"click","event":"Options::copy"},{"eventSelector":"a#copyoption","eventType":"click","event":"Options::copyoption"},{"eventSelector":"a#crop","eventType":"click","event":"Options::crop"},{"eventSelector":"a#printdecor","eventType":"click","event":"Options::printdecor"},{"eventSelector":"a#metalprints","eventType":"click","event":"Options::metalprints"}],"dropdownLink":[{"type":7,"url":"javascript:void(0);","label":"Crop","identifier":"crop","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('crop_detailpage_btn_click');","extraAttributes":" title='Crop' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"crop"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Rotate right","identifier":"rotateright","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('rotateright_detailpage_btn_click');","extraAttributes":" title='Rotate right' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"rotateright"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Rotate left","identifier":"rotateleft","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('rotateleft_detailpage_btn_click');","extraAttributes":" title='Rotate left' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"rotateleft"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Add effects","identifier":"effects","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('effects_detailpage_btn_click');","extraAttributes":" title='Add effects' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"effects"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Move","identifier":"move","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('move_detailpage_btn_click');","extraAttributes":" title='Move' data-copymovemode='move' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"move"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Delete","identifier":"delete","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('delete_detailpage_btn_click');","extraAttributes":" title='Delete' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"delete"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Print","identifier":"printoption","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('print_detailpage_btn_click');document.location.href='https:\/\/secure.photobucket.com\/print?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Print' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"printoption"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Download","identifier":"downloadoption","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('download_detailpage_btn_click');","extraAttributes":" title='Download' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"downloadoption"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Copy","identifier":"copyoption","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('copy_detailpage_btn_click');","extraAttributes":" title='Copy' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"copyoption"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false}]});
     }, Pb.InitEventQueue.MEDIUM_PRIORITY);
 </script>
+=======
+        <div id="detailOptions" class="detailOptions"></div>
+<script type="text/javascript">
+    Pb.InitEventQueue.addToDomReady(function() {
+        new Pb.Component.Detail.Options({"iconLink":[{"url":"javascript:void(0);","label":"Print canvas decor","identifier":"printdecor","classString":"iconLink","onClick":"Pb.Component.Tracking.Mixpanel.trackPrintPromoClick({promo: 'canvas prints link', component: 'media detail'});Pb.Track.trf('print_decor_option_click'); document.location.href='https:\/\/secure.photobucket.com\/print\/homedecor\/canvasprints?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Print canvas decor' ","iconClass":"icon-order-prints","jsAttributes":{"checkperms":true,"identifier":"printdecor"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Copy","identifier":"copy","classString":"iconLink","onClick":"Pb.Track.trf('copy_detailpage_option_click');","extraAttributes":" title='Copy' data-copymovemode='copy' ","iconClass":"icon-copy","jsAttributes":{"checkperms":true,"identifier":"copy"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Order prints","identifier":"prints","classString":"iconLink","onClick":"Pb.Component.Tracking.Mixpanel.trackPrintPromoClick({promo: 'prints link', component: 'media detail'});Pb.Track.trf('print_detailpage_option_click'); document.location.href='https:\/\/secure.photobucket.com\/print\/prints\/prints?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Print photo' ","iconClass":"icon-shopping-cart","jsAttributes":{"checkperms":true,"identifier":"prints"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Download","identifier":"download","classString":"iconLink","onClick":"Pb.Track.trf('download_detailpage_option_click');","extraAttributes":" title='Download' ","iconClass":"icon-download-alt","jsAttributes":{"checkperms":true,"identifier":"download"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Create metal prints","identifier":"metalprints","classString":"iconLink","onClick":"Pb.Component.Tracking.Mixpanel.trackPrintPromoClick({promo: 'metal prints link', component: 'media detail'});Pb.Track.trf('metalprints_detailpage_option_click'); document.location.href='https:\/\/secure.photobucket.com\/print\/homedecor\/metalprints?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Create metal prints' ","iconClass":"icon-gift","jsAttributes":{"checkperms":true,"identifier":"metalprints"},"tooltip":false,"displayIconAfterLabel":false},{"url":"javascript:void(0);","label":"Report this photo","identifier":"flag","classString":"iconLink showReportModal","onClick":"Pb.Track.trf('flag_detailpage_option_click');","extraAttributes":" title='Flag' ","iconClass":"icon-flag","jsAttributes":{"checkperms":true,"identifier":"flag"},"tooltip":false,"displayIconAfterLabel":false}],"eventRegister":[{"eventSelector":"a#prints","eventType":"click","event":"Options::prints"},{"eventSelector":"a#printoption","eventType":"click","event":"Options::printoption"},{"eventSelector":"a#edit2","eventType":"click","event":"Options::edit2"},{"eventSelector":"a#download","eventType":"click","event":"Options::download"},{"eventSelector":"a#downloadoption","eventType":"click","event":"Options::downloadoption"},{"eventSelector":"a#viewalbum","eventType":"click","event":"Options::viewalbum"},{"eventSelector":"a#move","eventType":"click","event":"Options::move"},{"eventSelector":"a#rotateleft","eventType":"click","event":"Options::rotateleft"},{"eventSelector":"a#rotateright","eventType":"click","event":"Options::rotateright"},{"eventSelector":"a#effects","eventType":"click","event":"Options::effects"},{"eventSelector":"a#delete","eventType":"click","event":"Options::delete"},{"eventSelector":"a#copy","eventType":"click","event":"Options::copy"},{"eventSelector":"a#copyoption","eventType":"click","event":"Options::copyoption"},{"eventSelector":"a#crop","eventType":"click","event":"Options::crop"},{"eventSelector":"a#printdecor","eventType":"click","event":"Options::printdecor"},{"eventSelector":"a#metalprints","eventType":"click","event":"Options::metalprints"}],"dropdownLink":[{"type":7,"url":"javascript:void(0);","label":"Crop","identifier":"crop","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('crop_detailpage_btn_click');","extraAttributes":" title='Crop' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"crop"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Rotate right","identifier":"rotateright","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('rotateright_detailpage_btn_click');","extraAttributes":" title='Rotate right' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"rotateright"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Rotate left","identifier":"rotateleft","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('rotateleft_detailpage_btn_click');","extraAttributes":" title='Rotate left' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"rotateleft"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Add effects","identifier":"effects","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('effects_detailpage_btn_click');","extraAttributes":" title='Add effects' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"effects"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Move","identifier":"move","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('move_detailpage_btn_click');","extraAttributes":" title='Move' data-copymovemode='move' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"move"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Delete","identifier":"delete","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('delete_detailpage_btn_click');","extraAttributes":" title='Delete' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"delete"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Print","identifier":"printoption","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('print_detailpage_btn_click');document.location.href='https:\/\/secure.photobucket.com\/print?media=' + encodeURIComponent(Pb.Data.get('shared.media').linkUrl);","extraAttributes":" title='Print' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"printoption"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Download","identifier":"downloadoption","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('download_detailpage_btn_click');","extraAttributes":" title='Download' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"downloadoption"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false},{"type":7,"url":"javascript:void(0);","label":"Copy","identifier":"copyoption","classString":"detailMenuOption btn-link","onClick":"Pb.Track.trf('copy_detailpage_btn_click');","extraAttributes":" title='Copy' ","iconClass":false,"notSubmitBtn":true,"jsAttributes":{"checkperms":true,"identifier":"copyoption"},"tooltip":false,"displayIconAfterLabel":false,"inButtonGroup":false}]});
+    }, Pb.InitEventQueue.MEDIUM_PRIORITY);
+</script>
+>>>>>>> bbadb96b279af0e60bd591deb1dd6b24e9326fe2
         </div>
 
             </div>
@@ -1055,6 +1103,7 @@ Pb.InitEventQueue.addToDomReady(function(){
 }, Pb.InitEventQueue.MEDIUM_PRIORITY);
 
 </script>
+<<<<<<< HEAD
 </div>
 
 
@@ -1063,6 +1112,16 @@ Pb.InitEventQueue.addToDomReady(function(){
 
     
 }, Pb.InitEventQueue.MEDIUM_PRIORITY);
+=======
+</div>
+
+
+<script type="text/javascript">
+Pb.InitEventQueue.addToDomReady(function(){
+
+    
+}, Pb.InitEventQueue.MEDIUM_PRIORITY);
+>>>>>>> bbadb96b279af0e60bd591deb1dd6b24e9326fe2
 </script>            </div>
         </div>
     </div>
